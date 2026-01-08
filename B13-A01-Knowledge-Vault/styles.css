@@ -227,4 +227,12 @@ padding: 8px 12px 8px 12px;
  ul{
     margin-top: 20px;
     list-style: none;
+    
  }
+ li{
+    margin-bottom:10px;
+ }
+.fa-square-check{
+    color:white;
+    background-color: #28a745;   
+}
