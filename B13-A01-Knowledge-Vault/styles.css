@@ -236,3 +236,72 @@ padding: 8px 12px 8px 12px;
     color:white;
     background-color: #28a745;   
 }
+.challenge {
+  width: 100%;
+  background-color: #F7F6F2;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.challenge-container {
+  max-width: 1360px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+
+.challenge h1,
+.challenge p {
+  margin: 0;
+}
+
+.challenge-text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.challenge h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.subtitle {
+  color: #627382;
+  font-size: 16px;
+}
+
+.small-text {
+  color: #627382;
+  font-size: 14px;
+}
+
+.challenge-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#btn4 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #30B868;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+
+#btn4:hover {
+  background-color: #28a745;
+  cursor: pointer;
+}
