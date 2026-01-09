@@ -101,7 +101,7 @@ padding: 8px 12px 8px 12px;
 .Notes-Section{
     width:1600px;
     height: 448px;
-    background-color: red;
+    
 }
 #Notes{
     display: flex;
@@ -126,8 +126,9 @@ padding: 8px 12px 8px 12px;
 }
 
 .notes-container {
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 1360px;
+    height: 300px;
+     margin: 0 auto; 
     padding: 0 120px; 
 }
 
@@ -154,9 +155,14 @@ padding: 8px 12px 8px 12px;
 
 
 .notes-box {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 24px;
+    gap: 24px; */
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:24px;
+
 }
 
 
@@ -197,12 +203,13 @@ padding: 8px 12px 8px 12px;
 
 .second-container{
     width:1600px;
-    height:840px;
+    height:700px;
+    margin-top:30px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:60px;
-    padding:120px auto;
+      
 }
 .content-pic{
     width:600px;
@@ -236,50 +243,45 @@ padding: 8px 12px 8px 12px;
     color:white;
     background-color: #28a745;   
 }
-.challenge {
-  width: 100%;
-  background-color: #F7F6F2;
-  padding: 80px 40px;
-  display: flex;
-  justify-content: center;
-}
+
+
+ 
+
 
 .challenge-container {
-  max-width: 1360px;
-  width: 100%;
+  max-width: 1250px;        
+  background-color: #F8F7F3;
+  
+ margin: 30px auto 0 auto;
+  padding: 80px 40px 80px 40px;
+  border-radius: 16px;
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 24px;
+  box-sizing: border-box;
 }
 
-
-.challenge h1,
-.challenge p {
-  margin: 0;
-}
-
-.challenge-text {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
 
 .challenge h1 {
   font-size: 32px;
   font-weight: 700;
   color: #0f172a;
+  margin: 0;
 }
 
 .subtitle {
-  color: #627382;
   font-size: 16px;
+  color: #627382;
+  margin: 0;
 }
 
 .small-text {
-  color: #627382;
   font-size: 14px;
+  color: #627382;
+  margin: 0;
 }
+
 
 .challenge-button {
   display: flex;
@@ -289,9 +291,6 @@ padding: 8px 12px 8px 12px;
 }
 
 #btn4 {
-  display: flex;
-  align-items: center;
-  gap: 8px;
   background-color: #30B868;
   color: #fff;
   padding: 12px 24px;
@@ -299,12 +298,16 @@ padding: 8px 12px 8px 12px;
   font-size: 16px;
   font-weight: 600;
   border: none;
+  cursor: pointer;
 }
 
 #btn4:hover {
   background-color: #28a745;
-  cursor: pointer;
 }
+
+
+
+
 
 footer {
     background: linear-gradient(180deg, #031a33 0%, #020f24 100%);
