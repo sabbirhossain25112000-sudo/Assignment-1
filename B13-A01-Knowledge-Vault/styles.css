@@ -305,3 +305,20 @@ padding: 8px 12px 8px 12px;
   background-color: #28a745;
   cursor: pointer;
 }
+.foot{
+    width:1600px;
+height: 348px;
+margin-top: 120px;
+padding: 120px 120px 30px 120px;
+gap:80px;
+ background-color:#001931; 
+
+}
+.img-link{
+    width: 1360px;
+    height:64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
